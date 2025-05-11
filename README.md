@@ -1,6 +1,8 @@
 # Protein Sequence Search with UniRef100 and HMMER
 
-This repository contains tools for searching similar protein sequences using the [UniRef100](https://www.uniprot.org/help/uniref) database and [jackhmmer](http://hmmer.org/) (part of the HMMER suite).
+This repository contains tools for searching similar protein sequences using the [UniRef100](https://www.uniprot.org/help/uniref) database and [jackhmmer](http://hmmer.org/) (part of the HMMER suite). The methodology is based on the [EVcouplings](https://github.com/debbiemarkslab/EVcouplings) framework developed in the Marks Lab for evolutionary sequence analysis and contact prediction.
+
+This implementation specifically applies the methodology described in section 3.1.1 of the supplementary notes of the [EVE (Evolutionary model of Variant Effects) paper](https://www.nature.com/articles/s41586-021-04043-8#Sec10), which details the process of creating high-quality multiple sequence alignments for deep generative modeling of protein sequences.
 
 ## HPC Environment
 
